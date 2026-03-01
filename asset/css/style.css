@@ -44,6 +44,10 @@ body {
   background: #00ff99;
   box-shadow: 0 0 10px #00ff99;
 }
+ 
+div.content img {
+  object-fit: cover;
+}
 /* HEADER ORIGINAL */
 header {
   position: fixed;
@@ -308,5 +312,6 @@ h1 span {
   .section {
     padding: 20px;
   }
+
 
 }
